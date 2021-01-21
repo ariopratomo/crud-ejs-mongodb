@@ -20,7 +20,6 @@ mongoose.connect("mongodb://localhost:27017/db_mahasiswa", {
 });
 
 var indexRouter = require("./routes/index");
-var usersRouter = require("./routes/users");
 var mahasiswaRouter = require("./routes/mahasiswa");
 
 var app = express();
